@@ -1,0 +1,181 @@
+@media only screen and (max-width:1400px){
+    .container-contant{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .container-contant{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:971px) {
+    .navright {
+        width: 30%
+    }
+
+    .navleft {
+        width: 70%
+    }
+
+    .nav-content {
+        width: 90%;
+    }
+    .skill-section{
+        font-size: 20px;
+    }
+    .social-main{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .handles{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width:840px) {
+
+    .navright {
+        width: 50%;
+    }
+
+    .navleft {
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .navbar{
+        top: 0;
+        left: 0;
+    }
+    .container-contant{
+        width: 40%;
+    }
+
+}
+
+@media only screen and (max-width:510px) {
+    .navleft{
+        width: 65%;
+    }
+    .navright{
+        width: 35%;
+    }
+    .logo-text{
+        font-size: 18px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .navbar{
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+    }
+    .skill-section{
+        width: 75%;
+        font-size: 20px;
+    }
+
+}
+   
+@media only screen and (max-width:430px){
+
+    .navbar{
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navleft{
+        width: 90%;
+    }
+    .navright{
+        width: 100%;
+    }
+    .logo-text {
+        font-size: 34px;
+    }
+    .main-container{
+        width: 80%;
+        border-radius: 10px;
+    }
+    .text{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .text2{
+        font-size: 18px;
+    }
+    
+    .skill-section{
+        width: 75%;
+        font-size: 20px;
+    }
+    .sk{
+        width: 90%;
+    }
+
+    .social-main{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .handles{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 300px;
+    }
+
+    .hide{
+        display: none;
+    }
+    .nav-content a{
+        font-size: 11px;
+    }
+
+
+}
+/* Special for main area and more  */
+
+
+
+
+@media only screen and (max-width:770px){
+    
+.main-container{
+    flex-direction: column-reverse;
+    width: 92%;
+}
+.text{
+    font-size: 25px;
+    font-weight: 900;
+}
+.text2{
+    font-size: 18px;
+}
+
+.container-img{
+    width: 250px;
+    height: 250px;
+}
+.skill-section{
+    font-size: 20px;
+}
+.con-left{
+    width: 80%;
+}
+.con-right{
+    width: 80%;
+}
+.container-contant{
+    width: 90%;
+}
+}
+   
